@@ -7,7 +7,7 @@ Este proyecto tiene como objetivo comparar el comportamiento de diferentes algor
 ## Algoritmos Utilizados
 
 - **BFS (Breadth-First Search):**  
-  Un algoritmo de búsqueda por anchura que explora todos los nodos a una misma distancia antes de avanzar. Garantiza encontrar el camino más corto en laberintos con costos uniformes.
+  Un algoritmo de búsqueda por anchura que explora todos los nodos a una misma distancia antes de avanzar. Garantiza encontrar el camino más corto.
 
 - **A* (A-star):**  
   Combina la búsqueda de costo uniforme con una heurística (distancia Manhattan en este caso) para dirigir la búsqueda hacia el objetivo, siendo generalmente más eficiente que BFS en laberintos grandes.
@@ -16,7 +16,7 @@ Este proyecto tiene como objetivo comparar el comportamiento de diferentes algor
   Un algoritmo de búsqueda de caminos que garantiza encontrar la ruta óptima en grafos con pesos no negativos. Se comporta de manera similar a A*, pero sin el componente heurístico.
 
 - **Greedy Best-First Search:**  
-  Se centra únicamente en la heurística para decidir qué nodo explorar a continuación. Es muy rápido, aunque no siempre garantiza el camino óptimo, lo que lo hace interesante para comparar su desempeño frente a los otros algoritmos.
+  Se centra únicamente en la heurística para decidir qué nodo explorar a continuación. Es muy rápido, aunque no siempre garantiza el camino óptimo.
 
 ## Sistema de Puntuación
 
